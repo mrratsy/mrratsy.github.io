@@ -1,0 +1,30 @@
+# Public marketing site for mrratsy.com.
+# Search engines: welcome.
+# Web archives (Wayback, archive.today, etc.): blocked.
+
+User-agent: *
+Allow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Wayback
+Disallow: /
+
+User-agent: archive.today
+Disallow: /
+
+User-agent: ArchiveTeam
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: heritrix
+Disallow: /
